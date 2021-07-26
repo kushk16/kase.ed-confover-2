@@ -1,0 +1,110 @@
+<html>
+<head>
+    <link rel="stylesheet" href="bioles1.css">
+<title></title>
+<link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+<!-- Apply styles to html elements -->
+<script>
+    alert("find live classes on our official youtube channel")
+
+</script>
+<style>
+    
+*{
+margin:0; padding:0; boxsizing:border-box;
+}
+
+nav{
+width: 100%; height: 15vh;
+background: rgb(0, 0, 0);
+display: flex; justify-content: space-between;
+align-items: center;
+}
+nav:hover{
+    background: rgb(97, 40, 253);
+}
+nav .mainmenu{
+width: 40%;
+display: flex; justify-content: space-around;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+width: 100%; height: 85vh;
+display: flex; justify-content: center;
+align-items: center;
+text-align: center;
+}
+section h3{
+letter-spacing: 3px; font-weight: 200;
+}
+section h1{
+text-transform: uppercase;
+}
+section div{
+animation:changeborder 10s infinite linear;
+border: 7px solid rgb(1, 2, 2);
+}
+/* @keyframes changeborder{
+0%
+20%
+40%
+} */
+</style>
+</head>
+<body>
+<!--Let us create a simple menu using the navigation tags-->
+<!--Use header to indicate that manu will be a part of header -->
+<header>
+<nav>
+    <image src = "assets/logo.png"width=100 height="100"></image>
+<!--Lets define the menu items now-->
+<div class = "mainmenu">
+<a href="home.html">Biology</a>
+<a href="chemistry.html">Chemistry</a>
+<a href="physics.html">Physics</a>
+<!-- <a href="streams.html">Live Classes</a> -->
+</div>
+</nav>
+
+<main>
+<section>
+
+<div class = "change_text"><b>LATEST LIVE CLASS</b></div>
+<i>new videos every sunday</i>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7kjjI05BSy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    
+<!-- <iframe src="editor.html" width="200" height="200"></iframe> -->
+<script src="valiation.js"></script>
+</section>
+</main>
+</header>
+<script src="functions.js"></script>
+</body>
+</html>
+<html>
+<head>
+<title>Javascript Login Form Validation</title>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="home.css"/>
+<!-- Include JS File Here -->
+<script src="valiation.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>Login To KASE.ED STUDIOS</h2>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+<!-- <span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span> -->
+</div>
+</div>
+
+</body>
+</html>

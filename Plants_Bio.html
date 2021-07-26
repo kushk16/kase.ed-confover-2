@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .dot-pulse {
+      position: relative;
+      left: -9999px;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      background-color: #80ecff;
+      color: #80ffea;
+      box-shadow: 9999px 0 0 -5px #80e1ff;
+      animation: dotPulse 1.5s infinite linear;
+      animation-delay: .25s;
+      margin-left: 650px;
+    }
+    
+    .dot-pulse::before, .dot-pulse::after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      background-color: #80fbff;
+      color: #80e1ff;
+    }
+    
+    .dot-pulse::before {
+      box-shadow: 9984px 0 0 -5px #80ffee;
+      animation: dotPulseBefore 1.5s infinite linear;
+      animation-delay: 0s;
+    }
+    
+    .dot-pulse::after {
+      box-shadow: 10014px 0 0 -5px #80ffee;
+      animation: dotPulseAfter 1.5s infinite linear;
+      animation-delay: .5s;
+    }
+    
+    @keyframes dotPulseBefore {
+      0% {
+        box-shadow: 9984px 0 0 -5px #80ecff;
+      }
+      30% {
+        box-shadow: 9984px 0 0 2px #80ffff;
+      }
+      60%,
+      100% {
+        box-shadow: 9984px 0 0 -5px #80fff4;
+      }
+    }
+    
+    @keyframes dotPulse {
+      0% {
+        box-shadow: 9999px 0 0 -5px #80fbff;
+      }
+      30% {
+        box-shadow: 9999px 0 0 2px #80fff4;
+      }
+      60%,
+      100% {
+        box-shadow: 9999px 0 0 -5px #80e6ff;
+      }
+    }
+    
+    @keyframes dotPulseAfter {
+      0% {
+        box-shadow: 10014px 0 0 -5px #80ffdf;
+      }
+      30% {
+        box-shadow: 10014px 0 0 2px #80fff9;
+      }
+      60%,
+      100% {
+        box-shadow: 10014px 0 0 -5px #9880ff;
+      }
+    }
+
+    </style>
+<title>KASE.ED | PLANTS-THE FLOWER</title>
+<link rel="shortcut icon" type="image/png" href="assets/logo_transparent.png" >
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bioles1.css"
+</head>
+
+    <image src = "assets/youtube_profile_image.png"width=100 height="100"></image>
+<h1>PLANTS - WHAT ARE PLANTS?</h1>
+<p>Plants are autotrophic feeders, which means they make their own food. They go through a natural process called photosynthesis which the plant takes in CO2 e.i carbon dioxide to make oxygen which is later consumed by the animals. Plants also need sunlight from the sun , water and minerals from the soil to grow.</p>
+
+<h1>PLANTS - TYPES OF FLOWERS?</h1>
+<p>There are 2 types of flowers, Unisexual or bisexual, A bisexual flower has both the male and the female gametes(sex cells) example:hibiscus while, unisexual plants only have either the male gametes or the female gametes. example:cucumber</p>
+
+<h1>PLANTS - HOW DO PLANTS REPRODUCE?</h1>
+<p>Reproduction is one of the seven characteristics of living organisms, Reproduction literally means "Re"+"Production" in other words, To replicate something again, Plants use flowers as the reproductive organs. Given below is the image of the flower and its reproductive organs(bisexual).</p>
+<image src = "bio-pobfdA.jpg" width=300 height="300"></image>
+<blockquote>source : toppr.com</blockquote>
+
+<h1>PLANTS - MALE PARTS OF A FLOWER</h1>
+<p>The sex part of the flower is called the "STAMEN", this consists the Anther and the Filament, The anther is a head-like structure which has sticky pollen on it. The filament is a slim and long tube that holds the anther in place.</p>
+
+<h1>PLANTS - FEMALE PARTS OF A FLOWER</h1>
+<p>This includes the style , filament , ovary and the ovules which awaits the pollen in the ovary.</p>
+<hr>
+<h2>LESSON NOTES.</h2>
+<p>Plants are autotrophic feeders which means they make their own food.</p>
+<p>Plants generate chemical energy.</p>
+<p>Unisexual plants are plants with only the male part or the female part.</p>
+<p>Bisexual plants on the contrary, are plants with both the male and female parts together.</p>
+<h2>Lesson Video</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7kjjI05BSy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <image src = "assets/bev.can.gif"width=300 height="300"></image> -->
+<hr>
+<h2>Lesson Quiz</h2>
+<p>Solve these problems to test your knowledge. These are supposed to be solved in a notebook , you can view the answers by clicking on the "Check" button</p>
+<h3>Which part of the plant serves the purpose of reproduction?</h3>
+<h3>What is the difference between bisexual and unisexual plants?</h3>
+<h3>What are autotrophic feeders?</h3>
+<a href="upload-check/plants_les1_kase.ed_check.pdf" download="courseware-check-sheet-plants1">
+    <img src="assets/button_check.png" alt="KASE.ED" >
+  </a>
+</div>
+<p>Upload your answers here and verify the answers by clicking on the check button</p>
+<p>File Type : Image</p>
+<h1>Upload Answers</h1>
+      <input type="file" accept="image/*" onchange="loadFile(event)">
+      <img id="output"/>
+      <script>
+        var loadFile = function(event) {
+          var reader = new FileReader();
+          reader.onload = function(){
+            var output = document.getElementById('output');
+            output.src = reader.result;
+          };
+          reader.readAsDataURL(event.target.files[0]);
+        };
+      </script>
+    
+    <!-- <form action="">
+        <button class = "gfg" type="submit">
+            Previous Lesson
+        </button>
+        
+</div>  -->
+ <form action="les2_t1_bio.html">
+    <button class = "gfg" type="submit">
+        Next Lesson
+    </button> 
+    
+<!-- <div class="sym"></div> -->
+<div class="snippet" data-title=".dot-pulse">
+    <div class="stage">
+      <div class="dot-pulse"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
